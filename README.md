@@ -19,7 +19,7 @@ This project leverages the following technologies and libraries:
 
 ## Project Structure
 
-The project is structured with two main pages:
+This project focuses on the conversion of the **Home** and **Blog** pages from the original template. Other pages present in the "Append" template were **not** implemented in this conversion. This decision was made due to the structural similarity and lack of new React concepts to explore in those additional pages, given the scope of this learning exercise.
 
 * **Home Page:** This page incorporates several distinct sections as individual React components. These may include components for:
     * `About`: Presenting information about the company or individual.
@@ -36,4 +36,4 @@ This React project is a conversion of the "Append" Bootstrap website template, w
 
 [Append Bootstrap Website Template](https://bootstrapmade.com/append-bootstrap-website-template/)
 
-This conversion was undertaken as a learning experience to solidify understanding of React concepts by applying them to an existing design.
+This conversion was undertaken as a learning experience to solidify understanding of React concepts by applying them to an existing design, with a specific focus on the Home and Blog page structures.
