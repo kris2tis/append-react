@@ -1,0 +1,6 @@
+export { default as postDetails } from "./details.js"
+export { default as Header } from "../common/Header/Header"
+export { default as Footer } from "../common/Footer/Footer"
+export { default as BlogPagination } from "./BlogPagination/BlogPagination"
+export { default as BlogPost } from "./BlogPost/BlogPost"
+export { default as Layout } from "../layout/Layout"

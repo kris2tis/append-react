@@ -1,0 +1,35 @@
+.blog-pagination {
+    padding-top: 0;
+    color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
+
+.blog-pagination ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.blog-pagination li {
+    margin: 0 5px;
+    transition: 0.3s;
+}
+
+.blog-pagination li a {
+    color: color-mix(in srgb, var(--default-color), transparent 40%);
+    padding: 7px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-pagination li a.active,
+.blog-pagination li a:hover {
+    background: var(--accent-color);
+    color: var(--contrast-color);
+}
+
+.blog-pagination li a.active a,
+.blog-pagination li a:hover a {
+    color: var(--contrast-color);
+}
