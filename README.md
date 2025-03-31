@@ -1,6 +1,6 @@
 # Append React Conversion
 
-This project is a personal endeavor to convert the static HTML/CSS/JS template "Append" by BootstrapMade into a dynamic React application. It served as a valuable exercise in understanding component-based architecture and state management within the React ecosystem.
+This project is a personal endeavor to convert the static HTML/CSS/JS template "Append" by BootstrapMade into a dynamic React application. It served as a valuable exercise in understanding component-based architecture and state management within the React ecosystem. **For this learning project, I focused specifically on developing the Home and Blog pages. Other pages present in the original template were not built out due to their structural similarity and the lack of new React concepts they would have introduced within the scope of this exercise.**
 
 ## Technologies Used
 
@@ -19,16 +19,14 @@ This project leverages the following technologies and libraries:
 
 ## Project Structure
 
-This project focuses on the conversion of the **Home** and **Blog** pages from the original template. Other pages present in the "Append" template were **not** implemented in this conversion. This decision was made due to the structural similarity and lack of new React concepts to explore in those additional pages, given the scope of this learning exercise.
+This project focuses on the conversion of the **Home** and **Blog** pages from the original template.
 
-* **Home Page:** This page incorporates several distinct sections as individual React components. These may include components for:
+* **Home Page:** This page incorporates several distinct sections as individual React components. For instance, the Home component contains smaller, specific components such as:
     * `About`: Presenting information about the company or individual.
     * `Team`: Displaying team members and their profiles.
-    * Other sections present in the original "Append" template (e.g., Hero, Services, Portfolio, Contact).
+    * Other sections present in the original "Append" template (e.g., Hero, Services, Portfolio, Contact) are also structured as separate components within the Home page.
 
-* **Blog Page:** This section is designed to showcase blog posts. It likely includes:
-    * A main view listing multiple blog articles.
-    * Potentially individual blog post pages (though the level of detail for individual posts may vary in this conversion).
+* **Blog Page:** This section is designed to showcase blog posts. The Blog component likely includes a layout for displaying a list of articles. While the original template might have detailed individual blog post pages, the term for this within the structure of this React conversion can be thought of as **Blog Post Detail Views** (even if not fully implemented as separate routes in this exercise).
 
 ## Original Template
 
